@@ -3,24 +3,30 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hiddens;
-	text-align: center;
 	opacity: 0.6;
-	text-decoration: none;
 }
 
 .profile-header{
-	padding: 15px;
-	box-shadow: 0 0 3px burlywood;
-	display: flex;
-	flex-direction: column;
+	padding: 10px 35px;
+
+	box-shadow: 0 0 3px black;
+	/*display: block;*/
 }
 
-.profile-header > ul{
+.profile-header ul{
 	list-style-type: none;
-	display: inline;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 5px;
+
 
 }
 .profile-header li {
 	display: inline;
 	padding-left: 45px;
+}
+
+.profile-header  a{
+	text-decoration: none;
 }
