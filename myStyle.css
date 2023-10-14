@@ -1,13 +1,13 @@
 body{
-	background-color: darkgray;
+	background-color: white;
 	margin: 0;
 	padding: 0;
 	overflow-x: hiddens;
 	text-align: center;
+	opacity: 0.6;
 }
 
 .profile-header{
-	background-color: lightblue;
 	padding: 15px;
 	box-shadow: 0 0 3px burlywood;
 	display: flex;
@@ -17,9 +17,10 @@ body{
 .profile-header > ul{
 	list-style-type: none;
 	display: inline;
-	text-decoration: none;
+
 }
 .profile-header li {
 	display: inline;
 	padding-left: 45px;
+	text-decoration: none;
 }
