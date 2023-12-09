@@ -1,14 +1,12 @@
-body{
+/*body{
 	background-color: white;
 	margin: 0;
 	padding: 0;
 	overflow-x: hiddens;
-	opacity: 0.6;
-}
-
+}*/
+/*
 .profile-header{
 	padding: 10px 35px;
-
 	box-shadow: 0 0 3px black;
 	display: flex;
 	justify-content: space-evenly;
@@ -21,9 +19,6 @@ body{
 	align-items: center;
 	margin-top: 5px;
 	align-self: right;
-
-
-
 }
 .profile-header li {
 	display: inline;
@@ -33,3 +28,50 @@ body{
 .profile-header  a{
 	text-decoration: none;
 }
+a:link, a:hover{
+	color: black;
+	text-decoration-color: skyblue;
+}
+.profile-header img{
+	width: 50px;
+	height: 20px;
+	border-radius: initial;
+}
+
+.body-section{
+	margin: 20px;
+	border: 5px solid black;
+	width: 80%;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+	display: flex;
+}
+.body-section .intro{
+	width: 50px;
+	border: 3px solid black;
+}
+.body-section img{
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+	padding: 5;
+	/*box-shadow: 2px 2px 5px #888;*/
+}
+/*.profile-stack{
+	float: right;
+	clear: right;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}*/
